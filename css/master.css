@@ -1,0 +1,264 @@
+/*Font*/
+h1 {font-size: 45px}
+h2 {font-size: 35px}
+h3 {font-size: 25px}
+h4 {font-size: 20px}
+a {font-size: 15px}
+
+h1, h2, h4, a{
+   font-weight: bold; text-transform: uppercase; text-align: center;
+}
+
+h3{
+   font-weight: bold; text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li{
+   font-family: sans-serif;
+}
+
+h1{
+   padding: 30px;
+}
+
+h2{
+   padding: 50px;
+}
+
+/*end font*/
+
+.container{
+   width: 100%;
+}
+
+
+/*Header*/
+
+#header{
+   background-image: url("../images/pic1.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   height: 500px;
+   clear: both;
+   border: solid 1px black;
+}
+
+.header{
+   height: 500px;
+   margin: 0 auto; /*centers .header*/
+   border: solid 1px black;
+}
+
+.logo{
+   display: inline;
+   float: left;
+   padding: 0 30px 0 30px;
+   margin-left: 5%;
+}
+
+/*navigation bar*/
+.navigation{
+   position: fixed;
+   width: 100%;
+   height: 50px;
+   top: 0;
+   left: 0;
+   display: block;
+   background-color: black;
+}
+.topNav{
+   float: right;
+   vertical-align: top;
+   margin-right: 5%;
+}
+.topNav li{
+   display: inline-flex;
+}
+.topNav li a{
+   padding: 18px 10px;
+}
+.topNav li a:hover{
+   background-color: green;
+}
+
+/*header title*/
+
+.headerTitle{
+   margin: 200px auto;
+   color: white;
+}
+
+/*allcontainetrs*/
+.container div{
+   clear: both;
+   /* border: solid 1px black;*/
+}
+.inner-container{
+   border: solid 1px black;
+}
+
+/*Core services*/
+.services div{
+   border: solid 1px black;
+}
+
+.imgTag{
+   display: block;
+   text-align: center;
+   margin-bottom: 40px;
+}
+
+.galleryAll{
+   display: block;
+   width: 100%;
+   border: solid 1px black;
+}
+
+.gallery{
+   display: inline-block;
+   margin: 3%;
+   width: 300px;
+   border: solid 1px black;
+}
+
+.gallery img{
+   width: 100%;
+   height: auto;
+}
+.gallery img:hover {
+    border: 1px solid #777;
+}
+
+.desc{
+   width: 300px
+   padding: 15px;
+   text-align: center;
+}
+
+
+/*classes*/
+.class{
+   width: 66%;
+}
+
+.class-pic{
+   width: 33%;
+   float: right;
+   border: solid 1px black;
+}
+
+.class, th, td{
+   border: solid 1px black;
+}
+
+
+
+
+/*competition*/
+
+.competitionAll{
+   width: 100%;
+   display: flex;
+   border: solid 1px black;
+}
+
+.competition{
+   width: 100%;
+}
+
+.comp{
+   width: 33%;
+}
+
+/*About us*/
+.historyAll{
+   display: block;
+   border: solid 1px black;
+}
+
+.historyAll div {
+   width: 55%;
+   display: inline-block;
+   border: solid 1px black;
+   margin: 50px 10px;
+}
+
+/*float image and text*/
+.historyAll img{
+   width: 20%;
+}
+.historyRight, .historyLeft img {
+   float: left;
+}
+.historyLeft, .historyRight img {
+   float: right;
+}
+
+
+
+/*Whats Said About us*/
+.aboutusAll{
+   width: 80%;
+   margin: 0 auto;
+}
+
+.aboutusNav{
+   text-align: center;
+   border: solid 1px black;
+}
+
+
+/*meet our trainers*/
+.trainerinfo{
+   text-align: center;
+   margin: 5%;
+}
+
+.trainerAll{
+   text-align: center;
+   border: solid 1px black;
+}
+
+.trainer{
+   display: inline-block;
+   text-align: center;
+   width: 24%;
+   border: solid 1px black;
+}
+
+.trainerimg{
+   width: 100%;
+}
+
+/*Gym plans*/
+
+
+
+
+/*Footer*/
+#footer{
+   border: solid 1px black;
+   text-align: center;
+}
+
+/*subscribe*/
+.subscribe{
+
+}
+
+
+
+
+/*media queries*/
+
+@media (max-width:1210px){
+   .header{
+   width: 100%;
+   }
+} /*header resize*/
+
+@media (max-width:1000px){
+   .trainer{
+      width: 49%;
+}
